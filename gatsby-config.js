@@ -3,7 +3,7 @@ module.exports = {
     title: "jcimoch",
     description: "Personal page of John Doe",
     locale: "en",
-    title: "Jarosław Cimoch CV",
+    title: "Jarosław Cimoch",
   },
   plugins: [
     {
