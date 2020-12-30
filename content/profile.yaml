@@ -1,0 +1,30 @@
+- profile:
+  initials: JC
+  name: Jarosław Cimoch
+  email: jaroslawcimoch@gmail.com
+  profession: Web Developer
+  image: images/profile.png
+  location: Gdańsk, Poland
+  relocation: false
+  company: Aspire Systems Poland
+  for_hire: false
+  focus: Angular 11
+  focus_url: ''
+  about: |
+    Frontend developer with fullstack interest
+  skills:
+    - TypeScript
+    - JavaScript
+    - Angular
+    - RxJS
+    - NgRx
+  tools:
+    - WebStorm
+    - Docker
+    - Cypress
+    - Jasmine
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 8

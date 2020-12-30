@@ -1,0 +1,33 @@
+{
+  "name": "jcimoch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jcimoch",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@wkocjan/gatsby-theme-intro": "^1.0.14",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-mdx": "^1.7.1",
+    "gatsby-plugin-offline": "^3.7.1",
+    "gatsby-plugin-sharp": "^2.11.2",
+    "gatsby-source-filesystem": "^2.8.1",
+    "gatsby-transformer-sharp": "^2.9.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
