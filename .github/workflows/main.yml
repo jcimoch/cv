@@ -20,7 +20,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REPOSITORY_NAME: jcimoch/jcimoch.github.io 
           BRANCH: master # The branch the action should deploy to.
           FOLDER: public # The folder the action should deploy.
